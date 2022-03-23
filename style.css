@@ -46,3 +46,111 @@ select {
 	-webkit-appearance: none !important;
 	border-radius: 0;
 }
+
+body {
+	background-color: #fff;
+	color: #fff;
+	font-family: "Roboto", sans-serif;
+}
+
+.topnav {
+	position: fixed;
+
+	width: 100%;
+	height: 80px;
+
+	z-index: 20;
+	background-color: #fff;
+	color: #666;
+}
+
+.topnav button.material-icons.md-36 {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	top: 12px;
+	right: 12px;
+
+	font-size: 36px;
+	color: #fff;
+	background-color: #666;
+	border-radius: 50px;
+}
+
+.topnav span.material-icons.md-36 {
+	position: absolute;
+	top: 12px;
+	left: 12px;
+
+	font-size: 36px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #666;
+	max-width: 1200px;
+	height: 100vh;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	margin-top: 80px;
+}
+
+.card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	margin: 30px;
+	padding: 40px;
+
+	background-color: #fff;
+	border-radius: 2px;
+
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.title {
+	color: #666;
+	font-size: 18px;
+	font-weight: regular;
+	border-bottom: 1px solid 666;
+}
+
+.text {
+	color: #666;
+	font-size: 18px;
+}
+
+.sub {
+	background-color: #666;
+	margin: auto;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	font-size: 80px;
+}
+
+.card button {
+	position: absolute;
+	bottom: -10px;
+	right: -10px;
+
+	width: 160px;
+	height: 50px;
+
+	color: #666;
+	border: 1px solid #666;
+	border-radius: 20px;
+
+	font-size: 14px;
+
+	box-shadow: 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.card button .material-icons.md-36 {
+	position: absolute;
+	top: 7px;
+	right: 7px;
+}
